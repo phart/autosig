@@ -1,8 +1,8 @@
 {
-    "_version": "0.10",
+    "_version": "0.11",
     "title": "Nexenta System Implementation Guide (SIG)",
     "enabled": true,
-    "paragraph": "Project: <project name>\nCustomer: <customer name>\nNexenta PS Case Number: <case number>\nNexenta Sales Order Number: <sales number>\nDate: <date>",
+    "paragraph": "Project: <project name>\nCustomer: <customer name>\nNexenta PS Case Number: <case number>\nDate: <date>",
     "cmd": null,
     "nmc": null,
     "collector": null,
@@ -376,24 +376,17 @@
             "sections": [
                 {
                     "enabled": true,
-                    "title": "NEX-1955",
-                    "paragraph": "The ival_anti_flapping property in the ses-check runner should be set to something other than zero in order to prevent false errors on shared JBODs when both nodes probe the JBOD at the same time.",
-                    "nmc": "show trigger ses-check property"
-                },
-                {
-                    "enabled": true,
                     "title": "NEX-915",
                     "paragraph": "SMART can cause interactions with FMD, unpredictable behavior, and impact performance.",
                     "nmc": "show appliance runners"
-                },
-                {
-                    "enabled": true,
-                    "title": "NEX-915 ctd.",
-                    "paragraph": "SMART can cause interactions with FMD and unpredictable behavior.",
-                    "nmc": "show lun smartstat",
-                    "ignore": true
                 }
             ]
+        },
+        {
+            "enabled": true,
+            "title": "Bill of Materials",
+            "paragraph": "NA",
+            "collector": null
         },
         {
             "enabled": true,
@@ -403,7 +396,7 @@
             "sections": [
                 {
                     "enabled": true,
-                    "title": "Network Diagrams",
+                    "title": "Network Diagram",
                     "paragraph": "NA",
                     "collector": null
                 },
