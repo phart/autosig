@@ -1,8 +1,8 @@
 {
-    "_version": "0.11",
+    "_version": "0.12",
     "title": "Nexenta System Implementation Guide (SIG)",
     "enabled": true,
-    "paragraph": "Project: <project name>\nCustomer: <customer name>\nNexenta PS Case Number: <case number>\nDate: <date>",
+    "paragraph": null,
     "cmd": null,
     "nmc": null,
     "collector": null,
@@ -10,8 +10,14 @@
         {
             "enabled": true,
             "title": "Overview",
-            "paragraph": "This report is designed to document the installation of a Nexenta appliance. It provides an as-delivered description of the appliance after installation, and as part of the Support Acceptance Checklist process it is required for moving into a supported state. An appliance is not considered to be under Nexenta Support until a signed version of this document has been attached to the 'Go-Live' case and the Support Acceptance Check (SAC) has been passed.",
+            "paragraph": "The System Implementation Guide (SIG) is designed to document the implementation details of a Nexenta deployment. A signed SIG is a requirement of the \"Go-Live\" process which must be completed before a system is put into production. A completed and signed SIG denotes the completion of the installation process and the Professional Services engagement.",
             "collector": null,
+            "sections": []
+        },
+        {
+            "enabled": true,
+            "title": "Project Details",
+            "paragraph": "Name: *Name*\n\nCustomer: *Customer*\n\nPS Case Number: *PS Case Number*\n\nDate: *Date*",
             "sections": []
         },
         {
@@ -22,19 +28,19 @@
                 {
                     "enabled": true,
                     "title": "Customer Contact Information",
-                    "paragraph": "Title: <title>\nName: <name>\nEmail: <email>\nPhone: <phone>",
+                    "paragraph": "Title: *Title*\n\nName: *Name*\n\nEmail: *Email*\n\nPhone: *Phone*",
                     "collector": null
                 },
                 {
                     "enabled": true,
                     "title": "Partner Contact Information",
-                    "paragraph": "Title: <title>\nName: <name>\nEmail: <email>\nPhone: <phone>",
+                    "paragraph": "Title: *Title*\n\nName: *Name*\n\nEmail: *Email*\n\nPhone: *Phone*",
                     "collector": null
                 },
                 {
                     "enabled": true,
                     "title": "Nexenta Contact Information",
-                    "paragraph": "Title: <title>\nName: <name>\nEmail: <email>\nPhone: <phone>",
+                    "paragraph": "Title: *Title*\n\nName: *Name*\n\nEmail: *Email*\n\nPhone: *Phone*",
                     "collector": null
                 }
             ]
@@ -423,13 +429,13 @@
                 {
                     "enabled": true,
                     "title": "Nexenta Signature",
-                    "paragraph": "Name:\n\n\nDate:\n\n\nSignature:\n\n\n",
+                    "paragraph": "Name:\n\nDate:\n\nSignature:\n\n",
                     "collector": null
                 },
                 {
                     "enabled": true,
                     "title": "Customer Signature",
-                    "paragraph": "Name:\n\n\nDate:\n\n\nSignature:\n\n\n",
+                    "paragraph": "Name:\n\nDate:\n\nSignature:\n\n",
                     "collector": null
                 }
             ]
